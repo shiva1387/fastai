@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 #Ignore the following directory
 courses/dl1/data
 *.png
+=======
+*-Copy?.ipynb
+*-Copy??.ipynb
+
+>>>>>>> upstream/master
