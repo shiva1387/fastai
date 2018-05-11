@@ -16,6 +16,7 @@ def accuracy_multi(preds, targs, thresh):
     return ((preds>thresh).float()==targs).float().mean()
 
 def accuracy_multi_np(preds, targs, thresh):
+<<<<<<< Updated upstream
     return ((preds>thresh)==targs).mean()
 
 def recall(preds, targs, thresh=0.5):
@@ -43,3 +44,6 @@ def fbeta(preds, targs, beta, thresh=0.5):
     return (1 + beta2) * prec * rec / (beta2 * prec + rec)
 
 def f1(preds, targs, thresh=0.5): return fbeta(preds, targs, 1, thresh)
+=======
+    return ((preds>thresh)==targs).mean()
+>>>>>>> Stashed changes
